@@ -11,10 +11,12 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import {Component} from '@angular/core';
 import {MatInputModule} from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
+// import { TemplateComponent } from './template/template.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // TemplateComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
+    // TemplateComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
